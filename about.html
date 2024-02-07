@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>About me</title>
+        <style>
+            p {
+                color: #ffffff;
+            }
+            .body {
+                background-image: url("images/mybackground.png")
+            }
+            .foreground {
+                width: 800px;
+                overflow-y: auto;
+                overflow-x: hidden;
+                margin: auto;
+                padding: 15px;
+            }
+            #aboutheader {
+                color: rgb(204, 160, 255);
+            }
+            #bikephoto {
+                float: right;
+                height: 250px;
+                border: dotted;
+                border-color: rgb(204, 160, 255);
+                margin: 10px;
+            }
+            #selfie {
+                float: left; 
+                height: 250px;
+                border: dotted;
+                border-color: rgb(204, 160, 255);
+                margin: 10px;
+            }
+            #funfacts {
+                color: #ffffff;
+                overflow-x: hidden;
+            }
+            #dice {
+                float: left;
+                height: 200px;
+                margin: 10px;
+                border: dashed;
+                border-width: 2px;
+                border-color: rgb(204, 160, 255);
+            }
+            #skywall {
+                float: right;
+                height: 200px;
+                margin: 10px;
+                border: dashed;
+                border-width: 2px;
+                border-color: rgb(204, 160, 255);
+            }
+        </style>
+    </head>
+<body class="body">
+    <div class="foreground">
+    <!--Banner and nav buttons-->
+    <img src="images/banner.png" alt="Blue banner conntaining picture of person with text that reads &quot;Jackson Quin Programming Portfolio.&quot;">
+    <table width="800px"> 
+        <tr>
+            <td width: 200px; align="center"><!--for some reason align:center; isn't working, fix later-->
+                <a href="index.html"><img src="images/homebutton.png" alt="Home Button"></a>
+            </td>
+            <td width: 200px; align="center">
+                <a href=about.html><img src="images/aboutbutton.png" alt="About Page Button"></a>
+            </td>
+            <td width: 200px; align="center">
+                 <a href=javascripts.html><img src="images/javascriptsbutton.png" alt="Javascripts Page Button"></a>
+            </td>
+         </tr>
+    </table>   
+    <!--End banner and nav buttons-->     
+<h1 id="aboutheader">About me</h1>
+    <p>Hi, my name is Jackson. I'm a college freshman. <br> I don't have much experience making websites so this is essentially my first "real" try at one! <br><br>
+            <img src="images/mebike.jpeg" id="bikephoto" alt="White man standing in front of bicycle on a sidewalk. Trees and kayaks seen in the background.">
+            <img src="images/meblurry.jpeg" id="selfie" alt="Selfie of a white man with purple hair, wearing a grey hoodie, taken in front of a building at dusk."> 
+        <br>This is me. As you may be able to tell, I'm not a huge fan of showing my full face online :&rpar;<br><br>Some &lpar;fun?&rpar; facts about me are:
+         <ul id="funfacts">
+            <li>I play D&D!</li>
+            <li>I'm not a computer scince major, just taking an introductory class</li>
+            <li>I have a pet cat</li>
+            <li>I think set, costume, prop, lighting, <em>and</em> sound design for live theatre are <strong>really</strong> cool, actually</li>
+        </ul>
+    </p>
+    <br><!--if this isn't here, dice stays in the center kinda in between both me pictures--> 
+    <p>
+    <img src="images/dice.jpg" id="dice" alt="Several sets of dice on a wooden desk">
+    <img src="images/skywall.jpg" id="skywall" alt="picture of stone wall with sky editted over parts of it">
+    <br>&lt;– This is my dice collection, for the aforementioned D&D<br><br>
+    One of my hobbies is photography. I was able to take some classes in high school; this image is one of my favorites from that time. –&gt;
+    </p>
+    </div>
+</body>
+</html>
